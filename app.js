@@ -1,14 +1,4 @@
-
-// const roll = () => {
-//     // for (let i=0; i<17; i++){
-
-//     //     const putLetter = document.querySelector(`.letter${i}`);
-        
-//     // }
-//     document.getElementById("letter1").innerHTML = genRanLet();
-// }
-
-
+// use roll() to create 16 variables and feed a single letter from the alphabet from letterFreak into the 4x4 gameboard matrix 
 
 const roll = () => {
     for (i=1; i<17; i++){
@@ -19,6 +9,8 @@ const roll = () => {
 }
 
 // 561 letters in letterFreak 
+// based on 
+//https://www3.nd.edu/~busiforc/handouts/cryptography/letterfrequencies.html
 
 const letterFreak = ["q","j","z","x",
 
@@ -68,7 +60,7 @@ const letterFreak = ["q","j","z","x",
 // convert letterFreak from array to string
 const printALetter = letterFreak.join("")
 
-// get a letter from pringALetter string
+// get a letter from printALetter string
 function genRanLet() {
     return printALetter[Math.floor(Math.random() * printALetter.length)]
 }
@@ -82,15 +74,7 @@ const fixQ = () => {
     return genRanLetFixQ
 }
 
-// const printALetter = letterFreak.join("")
-
-// function genRanLet() {
-//     const letter = printALetter[Math.floor(Math.random() * printALetter.length)]
-//     return letter
-// }
-
-
-//  The StopWatch -----------------------------
+//  The StopWatch (Geeks For Geeks) -----------------------------
 
 let startBtn = document.getElementById('start');
 let stopBtn = document.getElementById('stop');

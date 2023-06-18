@@ -18,18 +18,6 @@
     flex-direction: column;
     align-items: center; 
 }
-/* .letterBox{
-    width: 24vh; 
-    height: 24vh;
-    border: solid blue; 
-    font-size: 14vh;
-    font-style: bold;
-    text-transform: uppercase;
-    border-radius: 20px;
-    display: flex; 
-    align-items: center;
-    justify-content: center; 
-} */
 
 .letterBox {
     border: solid blue; 
@@ -44,12 +32,11 @@
     width: 24vh; 
 }
 
-
 #letter1 {
    
 }
 
-
+/* Geeks for Geeks stopwatch */
 
 body {
     font-family: verdana;
